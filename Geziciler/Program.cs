@@ -71,7 +71,7 @@ namespace Geziciler
             if (gezici.GeziciDurum.X > Convert.ToInt32(platoBoyutuDegiskenleri[0].ToString()) || gezici.GeziciDurum.X < 0 ||
                 gezici.GeziciDurum.Y > Convert.ToInt32(platoBoyutuDegiskenleri[1].ToString()) || gezici.GeziciDurum.Y < 0)
             {
-                Console.WriteLine("Gezici " + gezici.ToString() + " platodan çıkmıştır. Lütfen girdilerinizi kontrol edin. Bulunduğu koordinat: "
+                Console.WriteLine("Gezici " + gezici.GeziciNo.ToString() + " platodan çıkmıştır. Lütfen girdilerinizi kontrol edin. Bulunduğu koordinat: "
                     + gezici.GeziciDurum.X + "," + gezici.GeziciDurum.Y);
             }
             else
@@ -82,7 +82,7 @@ namespace Geziciler
             if (gezici2.GeziciDurum.X > Convert.ToInt32(platoBoyutuDegiskenleri[0].ToString()) || gezici2.GeziciDurum.X < 0 ||
                 gezici2.GeziciDurum.Y > Convert.ToInt32(platoBoyutuDegiskenleri[1].ToString()) || gezici2.GeziciDurum.Y < 0)
             {
-                Console.WriteLine("Gezici " + gezici2.ToString() + " platodan çıkmıştır. Lütfen girdilerinizi kontrol edin. Bulunduğu koordinat: "
+                Console.WriteLine("Gezici " + gezici2.GeziciNo.ToString() + " platodan çıkmıştır. Lütfen girdilerinizi kontrol edin. Bulunduğu koordinat: "
                     + gezici2.GeziciDurum.X + "," + gezici2.GeziciDurum.Y);
             }
             else
